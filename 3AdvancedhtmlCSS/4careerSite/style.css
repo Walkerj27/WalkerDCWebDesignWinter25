@@ -30,3 +30,8 @@ a {
 .footer {
     background-color: lightskyblue;
 }
+
+.job-title {
+    font-style: bold;
+    color: maroon;
+}
