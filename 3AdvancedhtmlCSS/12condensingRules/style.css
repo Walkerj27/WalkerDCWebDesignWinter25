@@ -1,0 +1,24 @@
+td {
+    color: white;
+}
+
+th {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.cubism {
+    background-color: darksalmon;
+}
+
+.renaissance {
+    background-color: darkcyan;
+}
+
+.impression {
+    background-color: mediumaquamarine;
+}
+
+.surrealism {
+    background-color: palegoldenrod;
+}
