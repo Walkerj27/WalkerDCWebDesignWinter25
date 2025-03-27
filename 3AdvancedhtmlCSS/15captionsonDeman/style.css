@@ -1,0 +1,18 @@
+/* Add the visibility attribute to these rules so that the caption shows up when
+the user hovers over the gallery item */
+
+#whale:hover .caption {
+    visibility: visible;
+}
+
+#dolphin:hover .caption {
+    visibility: visible;
+}
+
+#shark:hover .caption {
+    visibility: visible;
+}
+
+#octopus:hover .caption {
+    visibility: visible;
+}
