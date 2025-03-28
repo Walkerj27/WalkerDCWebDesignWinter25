@@ -1,0 +1,17 @@
+header {
+    background-color: black;
+    width: 50%;
+    color: lemonchiffon;
+}
+
+main {
+    background-color: honeydew;
+    width: 75%;
+    font-size: 24px;
+}
+body {
+    background-image: url(https://codehs.com/uploads/0c9fbe72a08ce8b40310652bd6f1efe2);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}

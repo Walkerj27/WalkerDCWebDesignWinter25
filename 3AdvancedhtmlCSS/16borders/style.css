@@ -1,0 +1,34 @@
+thead {
+    background-color: midnightblue;
+    color: white;
+}
+
+footer {
+    margin-top: 15%;
+}
+
+#aliceblue {
+    background-color: AliceBlue;
+}
+
+#lightseagreen {
+    background-color: LightSeaGreen;
+}
+
+#orangered {
+    background-color: OrangeRed;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+}
+
+#fuchsia {
+    background-color: fuchsia;
+}
+
+#table {
+    border: 5px;
+    border-style: dashed;
+    border-color: green;
+}
