@@ -1,0 +1,11 @@
+#cat1 {
+    filter: invert(50);
+}
+
+#cat2 {
+    filter: invert(50);
+}
+
+#cat2:hover {
+    filter: invert(0);
+}
