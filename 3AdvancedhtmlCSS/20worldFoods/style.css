@@ -10,6 +10,26 @@
     filter: invert(50);
 }
 
+.platter:hover .label { 
+    visibility:visible;
+}
+
+.platter:hover {
+    animation: serveFilter 3s forwards;
+}
+
+@keyframes serveFilter {
+    from {
+        width: 200px;
+        height: 200px;
+    }
+
+    to {
+        height: 400px;
+        width: 400px;
+    }
+}
+
 /* Put your styles ABOVE this line */
 div.platter {
     position: relative;
