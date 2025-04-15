@@ -15,19 +15,13 @@
 }
 
 .platter:hover {
-    animation: serveFilter 3s forwards;
+    transform: rotate(360deg);
+    height: 400px;
+    width: 400px;
 }
 
-@keyframes serveFilter {
-    from {
-        width: 200px;
-        height: 200px;
-    }
-
-    to {
-        height: 400px;
-        width: 400px;
-    }
+.platter {
+    transition: height 2s, width 2s, background-image 2.5s, transform 3s;
 }
 
 /* Put your styles ABOVE this line */
