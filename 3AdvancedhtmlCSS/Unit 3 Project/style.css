@@ -11,6 +11,15 @@ body {
     font-size: 25px;
 }
 
+.bryant:hover {
+    width: 900px;
+    height: 500px;
+}
+
+.bryant {
+    transition: height 3s, width 3s;
+}
+
 .duncan:hover{
     width: 900px;
     height: 500px;
