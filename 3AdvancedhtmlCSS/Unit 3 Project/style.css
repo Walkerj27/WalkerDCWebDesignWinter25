@@ -28,3 +28,12 @@ body {
 .duncan {
     transition: height 3s, width 3s;
 }
+
+.johnson:hover{
+    width: 900px;
+    height: 500px;
+}
+
+.johnson {
+    transition: height 3s, width 3s;
+}
