@@ -37,3 +37,21 @@ body {
 .johnson {
     transition: height 3s, width 3s;
 }
+
+.neal:hover{
+    width: 900px;
+    height: 500px;
+}
+
+.neal {
+    transition: height 3s, width 3s;
+}
+
+.kareem:hover{
+    width: 900px;
+    height: 500px;
+}
+
+.kareem {
+    transition: height 3s, width 3s;
+}
