@@ -20,7 +20,7 @@ body {
     transition: height 3s, width 3s;
 }
 
-.duncan:hover{
+.duncan:hover {
     width: 900px;
     height: 500px;
 }
@@ -29,7 +29,7 @@ body {
     transition: height 3s, width 3s;
 }
 
-.johnson:hover{
+.johnson:hover {
     width: 900px;
     height: 500px;
 }
@@ -38,7 +38,7 @@ body {
     transition: height 3s, width 3s;
 }
 
-.neal:hover{
+.neal:hover {
     width: 900px;
     height: 500px;
 }
@@ -47,11 +47,19 @@ body {
     transition: height 3s, width 3s;
 }
 
-.kareem:hover{
+.kareem:hover {
     width: 900px;
     height: 500px;
 }
 
 .kareem {
     transition: height 3s, width 3s;
+}
+
+a {
+    color: white;
+}
+
+.graph {
+    color: red;
 }
