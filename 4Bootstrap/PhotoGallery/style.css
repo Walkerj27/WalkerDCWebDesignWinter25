@@ -56,3 +56,8 @@ main .col-md-2{
     padding: 2em;
     margin-top: 2em;
 }
+
+img {
+    height: 200px;
+    width: 200px;
+}
