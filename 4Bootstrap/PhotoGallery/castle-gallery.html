@@ -31,15 +31,26 @@
 </head>
 
 <body>
-    <div>
-        <a href="index.html">Home</a>
-        <a href="castle-gallery.html">Galleries</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="gallery.html">Galleries</a>
+                <a class="nav-item nav-link active" href="castle-gallery.html">Castles</a>
+                <a class="nav-item nav-link" href="cat-gallery.html">Cats</a>
+                <a class="nav-item nav-link" href="dog-gallery.html">Dog</a>
+            </div>
+        </div>
+    </nav>
     <header class="container-fluid">
         <h1>Castle Gallery</h1>
     </header>
     <main class="container">
-        <div class="row">
+        <section class="row">
             <div class="col-sm-3">
                 <img class="rounded-circle" src="imgs/CastleImg/11615.jpg">
             </div>
@@ -52,8 +63,8 @@
             <div class="col-sm-3">
                 <img class="rounded-circle" src="imgs/CastleImg/11615.jpg">
             </div>
-        </div>
-        <div class="row">
+        </section>
+        <section class="row">
             <div class="col-sm-3">
                 <img class="rounded-circle" src="imgs/CastleImg/alcazar-de-segovia-web.jpg">
             </div>
@@ -66,7 +77,7 @@
             <div class="col-sm-3">
                 <img class="rounded-circle" src="imgs/CastleImg/alcazar-de-segovia-web.jpg">
             </div>
-        </div>
+        </section>
     </main>
 </body>
 
