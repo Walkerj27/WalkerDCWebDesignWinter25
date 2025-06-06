@@ -16,6 +16,21 @@ body {
   padding-top: 2rem;
 }
 
+#about {
+  padding-top: 2rem;
+}
+
+h2 + p {
+  color: navy;
+}
+
+h2 {
+  color: coral;
+}
+
+ul {
+  color: navy;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
